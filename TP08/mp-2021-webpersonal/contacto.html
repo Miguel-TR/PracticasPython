@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNJU-MP Contacto</title>
+    <link rel="stylesheet" href="css/myStyle.css">
+</head>
+<body>
+    <header>
+        <hgroup>
+            <img src="imagen/fi-logo.png" alt="Logo FI">
+            <h1>Contacto</h1>
+        </hgroup>
+    </header>
+    <nav class="topnav">
+        <ul>
+            <a href="index.html.">Inicio</a>
+            <a href="acercade.html">Acerca de:</a>
+            <a href="#">Contacto</a>
+        </ul>
+    </nav>
+    <h2>Ingrese Nombre: </h2>
+
+<form action="C:/Facultad/mp/año2021/tp10/action_page.php">
+  <label for="fname">nombre completo:</label><br>
+  <input type="text" id="fname" name="fname"><br><br>
+  <input type="submit" value="Cargar">
+</form>
+
+<h2>Ingrese Nombre: </h2>
+
+<form action="C:/Facultad/mp/año2021/tp10/action_page.php">
+  <label for="fname">Domicilio:</label><br>
+  <input type="text" id="fname" name="fname"><br><br>
+  <input type="submit" value="Cargar">
+</form>
+
+<h2>Seleccione un pais</h2>
+
+<p>The select element defines a drop-down list:</p>
+
+<form action="/action_page.php">
+  <label for="cars">Pais:</label>
+  <select id="cars" name="cars">
+    <option value="Argentina">Argentina</option>
+    <option value="Brasil">Brasil</option>
+    <option value="Uruguay">Uruguay</option>
+    <option value="Paraguay">Paraguay</option>
+    <option value="Bolivia">Bolivia</option>
+  </select>
+  <input type="Cargar">
+</form>
+<h2>Telefono Celular</h2>
+
+<p>The <strong>input type="tel"</strong> is used for input fields that should contain a telephone number:</p>
+
+<form action="/action_page.php">
+  <label for="phone">Ingrese telefono/Celular:</label><br><br>
+  <input type="tel" id="phone" name="phone" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required><br><br>
+  <small>Format: 123-45-678</small><br><br>
+  <input type="submit" value="Cargar">
+</form>
+<h2>Email </h2>
+
+<p>The <strong>input type="email"</strong> is used for input fields that should contain an e-mail address:</p>
+
+<form action="/action_page.php">
+  <label for="email">Ingrese su email:</label>
+  <input type="email" id="email" name="email" required>
+  <input type="submit" value="enviar">
+</form>
+
+<h2>Comentario</h2>
+<p>The textarea element defines a multi-line input field.</p>
+
+<form action="/action_page.php">
+  <textarea name="message" rows="10" cols="30">The cat was playing in the garden.</textarea>
+  <br><br>
+  <input type="enviar">
+</form>
+</body>
+
+    <footer>
+        Unju - Facultad de ingenieria <a href="http://fi.unju.edu.ar" target="_blank" rel="noopener noreferrer">http://fi.unju.edu.ar</a>
+
+    </footer>
+</body>
+</html>
+</html>

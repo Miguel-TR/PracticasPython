@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta charset="UTF-8">
+	<title>Acerca de</title>
+        <link rel="stylesheet" type="text/css" href="hojaestilo.css" />
+
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+.bg-img {
+  /* The image used */
+  background-image: url("C:/Facultad/mp/año2021/tp8/imagen/Hornocal.jpg");
+  width: 500px;
+  height: 233px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  /* Needed to position the navbar */
+  position: relative;
+}
+
+/* Position the navbar container inside the image */
+.container {
+  position: absolute;
+  margin: 20px;
+  width: auto;
+}
+
+/* The navbar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+</style>
+ <style>
+  body {
+    background-color: lightblue;
+       }
+ </style>
+<style>
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: rgb(196, 112, 35);}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+
+
+table {
+  width: 100%;
+  border: 1px solid black;
+}
+</style>
+</head>
+<body>
+ <header>
+   <nav>
+	<div class="bg-img">
+  		<div class="container">
+    			<div class="topnav">
+     				<a href="index.html">Index</a>
+				<a href="#acercade.html">Acerca de</a>
+      				<a href="contactos.html">Contactos</a>
+    			</div>
+  		</div>
+	</div>
+  </nav>
+ </header>
+
+  <h3> MP2021 </h3>
+
+<table  id="customers">
+	<thead>
+		<tr>
+			<th> Asesor</th>
+			<th> Foto Perfil</th>
+			<th> Rubro</th>
+			<th> Links </th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td> Samuel</td>
+			<td> <img src="C:/Facultad/mp/año2021/tp8/imagen/samuel.jpg" align="center"> </td>
+			<td> Hotelería </td>
+ 			<td> <a href="https://www.hotelhuacalera.com/el-hotel/restaurant-monterrey/" target="_blank">pagina Samuel</a>
+                </td>    
+		</tr>
+		<tr>
+			<td> José</td>
+			<td> <img src="C:/Facultad/mp/año2021/tp8/imagen/jose.jpg" align="center"> </td>
+			<td> Transporte </td>
+			<td> <a href="https://www.balut.com.ar/" target="_blank"> pagina José</a>
+		</tr>
+		<tr>
+			<td> Hector</td>
+			<td> <img src="C:/Facultad/mp/año2021/tp8/imagen/hector.jpg" align="center"> </td>
+			<td> Gastronomía </td>
+			<td> <a href="https://meet.google.com/wem-zkuh-acz" target="_blank">meet Hector</a>
+		</tr>
+		<tr>
+			<td> Julio</td>
+			<td> <img src="C:/Facultad/mp/año2021/tp8/imagen/julio.jpg" align="center"> </td>
+			<td> Espectáculos</td>
+			<td> <a href="https://meet.google.com/wem-zkuh-acz" target="_blank">meet Julio</a>
+		</tr>
+		<tr>
+			<td> Marcelo</td>
+			<td> <img src="C:/Facultad/mp/año2021/tp8/imagen/marcelo.png" align="center"> </td>
+			<td> Guía</td>
+			<td> <a href="https://meet.google.com/uuw-srjz-ric" target="_blank">meet Marcelo</a>
+		</tr>
+
+
+	</tbody>
+ <table class="cotizaciones" id="cotizacionesBlueProvincias">
+                <thead>
+                    <tr>
+                        <th class="dolar-blue">Provincia</th>
+                        <th class="dolar-blue">Compra</th>
+                        <th class="dolar-blue">Venta</th>
+                        <th class="dolar-blue">Variación</th>
+                        <th class="dolar-blue">Spread</th>
+                        <th class="dolar-blue"><i class="far fa-clock"></i></th>
+                    </tr>
+                </thead>
+            
+                        <tr>
+                            <td class="colNombre">
+                                <a href="/cotizacion-dolar-provincia-buenos-aires.aspx">Buenos Aires</a>
+                            </td>
+                            <td class="colCompraVenta" data-order="$ 288,00">
+                                $ 288,00
+                                <span class="variacionCompraVenta"><span class="baja"><i class="fa fa-arrow-down"></i> -$ 1,00</span></span>
+                            </td>
+                            <td class="colCompraVenta" data-order="$ 293,00">
+                                $ 293,00
+                                <span class="variacionCompraVenta"><span class="baja"><i class="fa fa-arrow-down"></i> -$ 1,00</span></span>
+                            </td>
+                            <td class="colVariacion">
+                                <span class="variacion"><span class="baja"><i class="fa fa-arrow-down"></i> -0,34 %</span></span>
+                            </td>
+                            <td class="colSpread">
+                                $ 5,00
+                            </td>
+                            <td class="colFecha">
+                                <abbr class="timeago date" title="2022-10-14T14:40:00">viernes, 14 de octubre de 2022 14:40</abbr>
+                            </td>
+                        </tr>
+            
+                        <tr>
+                            <td class="colNombre">
+                                <a href="/cotizacion-dolar-provincia-capital-federal.aspx">Capital Federal</a>
+                            </td>
+                            <td class="colCompraVenta" data-order="$ 286,00">
+                                $ 286,00
+                                <span class="variacionCompraVenta"><span class="baja"><i class="fa fa-arrow-down"></i> -$ 1,00</span></span>
+                            </td>
+                            <td class="colCompraVenta" data-order="$ 290,00">
+                                $ 290,00
+                                <span class="variacionCompraVenta"><span class="baja"><i class="fa fa-arrow-down"></i> -$ 1,00</span></span>
+                            </td>
+                            <td class="colVariacion">
+                                <span class="variacion"><span class="baja"><i class="fa fa-arrow-down"></i> -0,34 %</span></span>
+                            </td>
+                            <td class="colSpread">
+                                $ 4,00
+                            </td>
+                            <td class="colFecha">
+                                <abbr class="timeago date" title="2022-10-14T14:40:00">viernes, 14 de octubre de 2022 14:40</abbr>
+                            </td>
+                        </tr>
+            
+                        <tr>
+                            <td class="colNombre">
+                                <a href="/cotizacion-dolar-provincia-catamarca.aspx">Catamarca</a>
+                            </td>
+                            <td class="colCompraVenta" data-order="$ 286,00">
+                                $ 286,00
+                                <span class="variacionCompraVenta"><span class="baja"><i class="fa fa-arrow-down"></i> -$ 1,00</span></span>
+                            </td>
+                            <td class="colCompraVenta" data-order="$ 292,00">
+                                $ 292,00
+                                <span class="variacionCompraVenta"><span class="baja"><i class="fa fa-arrow-down"></i> -$ 1,00</span></span>
+                            </td>
+                            <td class="colVariacion">
+                                <span class="variacion"><span class="baja"><i class="fa fa-arrow-down"></i> -0,34 %</span></span>
+                            </td>
+                            <td class="colSpread">
+                                $ 6,00
+                            </td>
+                            <td class="colFecha">
+                                <abbr class="timeago date" title="2022-10-14T14:40:00">viernes, 14 de octubre de 2022 14:40</abbr>
+                            </td>
+                        </tr>
+            
+                        <tr>
+                            <td class="colNombre">
+                                <a href="/cotizacion-dolar-provincia-chaco.aspx">Chaco</a>
+                            </td>
+                            <td class="colCompraVenta" data-order="$ 286,00">
+                                $ 286,00
+                                <span class="variacionCompraVenta"><span class="baja"><i class="fa fa-arrow-down"></i> -$ 1,00</span></span>
+                            </td>
+                            <td class="colCompraVenta" data-order="$ 290,00">
+                                $ 290,00
+                                <span class="variacionCompraVenta"><span class="baja"><i class="fa fa-arrow-down"></i> -$ 1,00</span></span>
+                            </td>
+                            <td class="colVariacion">
+                                <span class="variacion"><span class="baja"><i class="fa fa-arrow-down"></i> -0,34 %</span></span>
+                            </td>
+                            <td class="colSpread">
+                                $ 4,00
+                            </td>
+                            <td class="colFecha">
+                                <abbr class="timeago date" title="2022-10-14T14:40:00">viernes, 14 de octubre de 2022 14:40</abbr>
+                            </td>
+                        </tr>
+            
+                        <tr>
+                            <td class="colNombre">
+                                <a href="/cotizacion-dolar-provincia-chubut.aspx">Chubut</a>
+                            </td>
+                            <td class="colCompraVenta" data-order="$ 286,00">
+                                $ 286,00
+                                <span class="variacionCompraVenta"><span class="baja"><i class="fa fa-arrow-down"></i> -$ 1,00</span></span>
+                            </td>
+                            <td class="colCompraVenta" data-order="$ 292,00">
+                                $ 292,00
+                                <span class="variacionCompraVenta"><span class="baja"><i class="fa fa-arrow-down"></i> -$ 1,00</span></span>
+                            </td>
+                            <td class="colVariacion">
+                                <span class="variacion"><span class="baja"><i class="fa fa-arrow-down"></i> -0,34 %</span></span>
+                            </td>
+                            <td class="colSpread">
+                                $ 6,00
+                            </td>
+                            <td class="colFecha">
+                                <abbr class="timeago date" title="2022-10-14T14:40:00">viernes, 14 de octubre de 2022 14:40</abbr>
+                            </td>
+                        </tr>
+            
+                        <tr>
+                            <td class="colNombre">
+                                <a href="/cotizacion-dolar-provincia-cordoba.aspx">Córdoba</a>
+                            </td>
+                            <td class="colCompraVenta" data-order="$ 287,00">
+                                $ 287,00
+                                <span class="variacionCompraVenta"><span class="baja"><i class="fa fa-arrow-down"></i> -$ 1,00</span></span>
+                            </td>
+                            <td class="colCompraVenta" data-order="$ 293,00">
+                                $ 293,00
+                                <span class="variacionCompraVenta"><span class="baja"><i class="fa fa-arrow-down"></i> -$ 1,00</span></span>
+                            </td>
+                            <td class="colVariacion">
+                                <span class="variacion"><span class="baja"><i class="fa fa-arrow-down"></i> -0,34 %</span></span>
+                            </td>
+                            <td class="colSpread">
+                                $ 6,00
+                            </td>
+                            <td class="colFecha">
+                                <abbr class="timeago date" title="2022-10-14T14:40:00">viernes, 14 de octubre de 2022 14:40</abbr>
+                            </td>
+                        </tr>
+            
+                        <tr>
+                            <td class="colNombre">
+                                <a href="/cotizacion-dolar-provincia-corrientes.aspx">Corrientes</a>
+                            </td>
+                            <td class="colCompraVenta" data-order="$ 286,00">
+                                $ 286,00
+                                <span class="variacionCompraVenta"><span class="baja"><i class="fa fa-arrow-down"></i> -$ 1,00</span></span>
+                            </td>
+                            <td class="colCompraVenta" data-order="$ 290,00">
+                                $ 290,00
+                                <span class="variacionCompraVenta"><span class="baja"><i class="fa fa-arrow-down"></i> -$ 1,00</span></span>
+                            </td>
+                            <td class="colVariacion">
+                                <span class="variacion"><span class="baja"><i class="fa fa-arrow-down"></i> -0,34 %</span></span>
+                            </td>
+                            <td class="colSpread">
+                                $ 4,00
+                            </td>
+                            <td class="colFecha">
+                                <abbr class="timeago date" title="2022-10-14T14:40:00">viernes, 14 de octubre de 2022 14:40</abbr>
+                            </td>
+                        </tr>
+            
+                        <tr>
+                            <td class="colNombre">
+                                <a href="/cotizacion-dolar-provincia-entre-rios.aspx">Entre Ríos</a>
+                            </td>
+                            <td class="colCompraVenta" data-order="$ 286,00">
+                                $ 286,00
+                                <span class="variacionCompraVenta"><span class="baja"><i class="fa fa-arrow-down"></i> -$ 1,00</span></span>
+                            </td>
+                            <td class="colCompraVenta" data-order="$ 292,00">
+                                $ 292,00
+                                <span class="variacionCompraVenta"><span class="baja"><i class="fa fa-arrow-down"></i> -$ 1,00</span></span>
+                            </td>
+                            <td class="colVariacion">
+                                <span class="variacion"><span class="baja"><i class="fa fa-arrow-down"></i> -0,34 %</span></span>
+                            </td>
+                            <td class="colSpread">
+                                $ 6,00
+                            </td>
+                            <td class="colFecha">
+                                <abbr class="timeago date" title="2022-10-14T14:40:00">viernes, 14 de octubre de 2022 14:40</abbr>
+                            </td>
+                        </tr>
+            
+                        <tr>
+                            <td class="colNombre">
+                                <a href="/cotizacion-dolar-provincia-formosa.aspx">Formosa</a>
+                            </td>
+                            <td class="colCompraVenta" data-order="$ 286,00">
+                                $ 286,00
+                                <span class="variacionCompraVenta"><span class="baja"><i class="fa fa-arrow-down"></i> -$ 1,00</span></span>
+                            </td>
+                            <td class="colCompraVenta" data-order="$ 290,00">
+                                $ 290,00
+                                <span class="variacionCompraVenta"><span class="baja"><i class="fa fa-arrow-down"></i> -$ 1,00</span></span>
+                            </td>
+                            <td class="colVariacion">
+                                <span class="variacion"><span class="baja"><i class="fa fa-arrow-down"></i> -0,34 %</span></span>
+                            </td>
+                            <td class="colSpread">
+                                $ 4,00
+                            </td>
+                            <td class="colFecha">
+                                <abbr class="timeago date" title="2022-10-14T14:40:00">viernes, 14 de octubre de 2022 14:40</abbr>
+                            </td>
+                        </tr>
+            
+                        <tr>
+                            <td class="colNombre">
+                                <a href="/cotizacion-dolar-provincia-jujuy.aspx">Jujuy</a>
+                            </td>
+                            <td class="colCompraVenta" data-order="$ 286,00">
+                                $ 286,00
+                                <span class="variacionCompraVenta"><span class="baja"><i class="fa fa-arrow-down"></i> -$ 1,00</span></span>
+                            </td>
+                            <td class="colCompraVenta" data-order="$ 292,00">
+                                $ 292,00
+                                <span class="variacionCompraVenta"><span class="baja"><i class="fa fa-arrow-down"></i> -$ 1,00</span></span>
+                            </td>
+                            <td class="colVariacion">
+                                <span class="variacion"><span class="baja"><i class="fa fa-arrow-down"></i> -0,34 %</span></span>
+                            </td>
+                            <td class="colSpread">
+                                $ 6,00
+                            </td>
+                            <td class="colFecha">
+                                <abbr class="timeago date" title="2022-10-14T14:40:00">viernes, 14 de octubre de 2022 14:40</abbr>
+                            </td>
+                        </tr>
+            
+                        <tr>
+                            <td class="colNombre">
+                                <a href="/cotizacion-dolar-provincia-la-pampa.aspx">La Pampa</a>
+                            </td>
+                            <td class="colCompraVenta" data-order="$ 286,00">
+                                $ 286,00
+                                <span class="variacionCompraVenta"><span class="baja"><i class="fa fa-arrow-down"></i> -$ 1,00</span></span>
+                            </td>
+                            <td class="colCompraVenta" data-order="$ 292,00">
+                                $ 292,00
+                                <span class="variacionCompraVenta"><span class="baja"><i class="fa fa-arrow-down"></i> -$ 1,00</span></span>
+                            </td>
+                            <td class="colVariacion">
+                                <span class="variacion"><span class="baja"><i class="fa fa-arrow-down"></i> -0,34 %</span></span>
+                            </td>
+                            <td class="colSpread">
+                                $ 6,00
+                            </td>
+                            <td class="colFecha">
+                                <abbr class="timeago date" title="2022-10-14T14:40:00">viernes, 14 de octubre de 2022 14:40</abbr>
+                            </td>
+                        </tr>
+            
+                        <tr>
+                            <td class="colNombre">
+                                <a href="/cotizacion-dolar-provincia-la-rioja.aspx">La Rioja</a>
+                            </td>
+                            <td class="colCompraVenta" data-order="$ 286,00">
+                                $ 286,00
+                                <span class="variacionCompraVenta"><span class="baja"><i class="fa fa-arrow-down"></i> -$ 1,00</span></span>
+                            </td>
+                            <td class="colCompraVenta" data-order="$ 292,00">
+                                $ 292,00
+                                <span class="variacionCompraVenta"><span class="baja"><i class="fa fa-arrow-down"></i> -$ 1,00</span></span>
+                            </td>
+                            <td class="colVariacion">
+                                <span class="variacion"><span class="baja"><i class="fa fa-arrow-down"></i> -0,34 %</span></span>
+                            </td>
+                            <td class="colSpread">
+                                $ 6,00
+                            </td>
+                            <td class="colFecha">
+                                <abbr class="timeago date" title="2022-10-14T14:40:00">viernes, 14 de octubre de 2022 14:40</abbr>
+                            </td>
+                        </tr>
+            
+                        <tr>
+                            <td class="colNombre">
+                                <a href="/cotizacion-dolar-provincia-mendoza.aspx">Mendoza</a>
+                            </td>
+                            <td class="colCompraVenta" data-order="$ 286,00">
+                                $ 286,00
+                                <span class="variacionCompraVenta"><span class="baja"><i class="fa fa-arrow-down"></i> -$ 1,00</span></span>
+                            </td>
+                            <td class="colCompraVenta" data-order="$ 291,00">
+                                $ 291,00
+                                <span class="variacionCompraVenta"><span class="baja"><i class="fa fa-arrow-down"></i> -$ 1,00</span></span>
+                            </td>
+                            <td class="colVariacion">
+                                <span class="variacion"><span class="baja"><i class="fa fa-arrow-down"></i> -0,34 %</span></span>
+                            </td>
+                            <td class="colSpread">
+                                $ 5,00
+                            </td>
+                            <td class="colFecha">
+                                <abbr class="timeago date" title="2022-10-14T14:40:00">viernes, 14 de octubre de 2022 14:40</abbr>
+                            </td>
+                        </tr>
+            
+                        <tr>
+                            <td class="colNombre">
+                                <a href="/cotizacion-dolar-provincia-misiones.aspx">Misiones</a>
+                            </td>
+                            <td class="colCompraVenta" data-order="$ 286,00">
+                                $ 286,00
+                                <span class="variacionCompraVenta"><span class="baja"><i class="fa fa-arrow-down"></i> -$ 1,00</span></span>
+                            </td>
+                            <td class="colCompraVenta" data-order="$ 290,00">
+                                $ 290,00
+                                <span class="variacionCompraVenta"><span class="baja"><i class="fa fa-arrow-down"></i> -$ 1,00</span></span>
+                            </td>
+                            <td class="colVariacion">
+                                <span class="variacion"><span class="baja"><i class="fa fa-arrow-down"></i> -0,34 %</span></span>
+                            </td>
+                            <td class="colSpread">
+                                $ 4,00
+                            </td>
+                            <td class="colFecha">
+                                <abbr class="timeago date" title="2022-10-14T14:40:00">viernes, 14 de octubre de 2022 14:40</abbr>
+                            </td>
+                        </tr>
+            
+                        <tr>
+                            <td class="colNombre">
+                                <a href="/cotizacion-dolar-provincia-neuquen.aspx">Neuquén</a>
+                            </td>
+                            <td class="colCompraVenta" data-order="$ 286,00">
+                                $ 286,00
+                                <span class="variacionCompraVenta"><span class="baja"><i class="fa fa-arrow-down"></i> -$ 1,00</span></span>
+                            </td>
+                            <td class="colCompraVenta" data-order="$ 292,00">
+                                $ 292,00
+                                <span class="variacionCompraVenta"><span class="baja"><i class="fa fa-arrow-down"></i> -$ 1,00</span></span>
+                            </td>
+                            <td class="colVariacion">
+                                <span class="variacion"><span class="baja"><i class="fa fa-arrow-down"></i> -0,34 %</span></span>
+                            </td>
+                            <td class="colSpread">
+                                $ 6,00
+                            </td>
+                            <td class="colFecha">
+                                <abbr class="timeago date" title="2022-10-14T14:40:00">viernes, 14 de octubre de 2022 14:40</abbr>
+                            </td>
+                        </tr>
+            
+                        <tr>
+                            <td class="colNombre">
+                                <a href="/cotizacion-dolar-provincia-rio-negro.aspx">Río Negro</a>
+                            </td>
+                            <td class="colCompraVenta" data-order="$ 286,00">
+                                $ 286,00
+                                <span class="variacionCompraVenta"><span class="baja"><i class="fa fa-arrow-down"></i> -$ 1,00</span></span>
+                            </td>
+                            <td class="colCompraVenta" data-order="$ 292,00">
+                                $ 292,00
+                                <span class="variacionCompraVenta"><span class="baja"><i class="fa fa-arrow-down"></i> -$ 1,00</span></span>
+                            </td>
+                            <td class="colVariacion">
+                                <span class="variacion"><span class="baja"><i class="fa fa-arrow-down"></i> -0,34 %</span></span>
+                            </td>
+                            <td class="colSpread">
+                                $ 6,00
+                            </td>
+                            <td class="colFecha">
+                                <abbr class="timeago date" title="2022-10-14T14:40:00">viernes, 14 de octubre de 2022 14:40</abbr>
+                            </td>
+                        </tr>
+            
+                        <tr>
+                            <td class="colNombre">
+                                <a href="/cotizacion-dolar-provincia-salta.aspx">Salta</a>
+                            </td>
+                            <td class="colCompraVenta" data-order="$ 286,00">
+                                $ 286,00
+                                <span class="variacionCompraVenta"><span class="baja"><i class="fa fa-arrow-down"></i> -$ 1,00</span></span>
+                            </td>
+                            <td class="colCompraVenta" data-order="$ 293,00">
+                                $ 293,00
+                                <span class="variacionCompraVenta"><span class="baja"><i class="fa fa-arrow-down"></i> -$ 1,00</span></span>
+                            </td>
+                            <td class="colVariacion">
+                                <span class="variacion"><span class="baja"><i class="fa fa-arrow-down"></i> -0,34 %</span></span>
+                            </td>
+                            <td class="colSpread">
+                                $ 7,00
+                            </td>
+                            <td class="colFecha">
+                                <abbr class="timeago date" title="2022-10-14T14:40:00">viernes, 14 de octubre de 2022 14:40</abbr>
+                            </td>
+                        </tr>
+            
+                        <tr>
+                            <td class="colNombre">
+                                <a href="/cotizacion-dolar-provincia-san-juan.aspx">San Juan</a>
+                            </td>
+                            <td class="colCompraVenta" data-order="$ 286,00">
+                                $ 286,00
+                                <span class="variacionCompraVenta"><span class="baja"><i class="fa fa-arrow-down"></i> -$ 1,00</span></span>
+                            </td>
+                            <td class="colCompraVenta" data-order="$ 292,00">
+                                $ 292,00
+                                <span class="variacionCompraVenta"><span class="baja"><i class="fa fa-arrow-down"></i> -$ 1,00</span></span>
+                            </td>
+                            <td class="colVariacion">
+                                <span class="variacion"><span class="baja"><i class="fa fa-arrow-down"></i> -0,34 %</span></span>
+                            </td>
+                            <td class="colSpread">
+                                $ 6,00
+                            </td>
+                            <td class="colFecha">
+                                <abbr class="timeago date" title="2022-10-14T14:40:00">viernes, 14 de octubre de 2022 14:40</abbr>
+                            </td>
+                        </tr>
+            
+                        <tr>
+                            <td class="colNombre">
+                                <a href="/cotizacion-dolar-provincia-san-luis.aspx">San Luis</a>
+                            </td>
+                            <td class="colCompraVenta" data-order="$ 286,00">
+                                $ 286,00
+                                <span class="variacionCompraVenta"><span class="baja"><i class="fa fa-arrow-down"></i> -$ 1,00</span></span>
+                            </td>
+                            <td class="colCompraVenta" data-order="$ 292,00">
+                                $ 292,00
+                                <span class="variacionCompraVenta"><span class="baja"><i class="fa fa-arrow-down"></i> -$ 1,00</span></span>
+                            </td>
+                            <td class="colVariacion">
+                                <span class="variacion"><span class="baja"><i class="fa fa-arrow-down"></i> -0,34 %</span></span>
+                            </td>
+                            <td class="colSpread">
+                                $ 6,00
+                            </td>
+                            <td class="colFecha">
+                                <abbr class="timeago date" title="2022-10-14T14:40:00">viernes, 14 de octubre de 2022 14:40</abbr>
+                            </td>
+                        </tr>
+            
+                        <tr>
+                            <td class="colNombre">
+                                <a href="/cotizacion-dolar-provincia-santa-cruz.aspx">Santa Cruz</a>
+                            </td>
+                            <td class="colCompraVenta" data-order="$ 286,00">
+                                $ 286,00
+                                <span class="variacionCompraVenta"><span class="baja"><i class="fa fa-arrow-down"></i> -$ 1,00</span></span>
+                            </td>
+                            <td class="colCompraVenta" data-order="$ 295,00">
+                                $ 295,00
+                                <span class="variacionCompraVenta"><span class="baja"><i class="fa fa-arrow-down"></i> -$ 1,00</span></span>
+                            </td>
+                            <td class="colVariacion">
+                                <span class="variacion"><span class="baja"><i class="fa fa-arrow-down"></i> -0,34 %</span></span>
+                            </td>
+                            <td class="colSpread">
+                                $ 9,00
+                            </td>
+                            <td class="colFecha">
+                                <abbr class="timeago date" title="2022-10-14T14:40:00">viernes, 14 de octubre de 2022 14:40</abbr>
+                            </td>
+                        </tr>
+            
+                        <tr>
+                            <td class="colNombre">
+                                <a href="/cotizacion-dolar-provincia-santa-fe.aspx">Santa Fe</a>
+                            </td>
+                            <td class="colCompraVenta" data-order="$ 287,00">
+                                $ 287,00
+                                <span class="variacionCompraVenta"><span class="baja"><i class="fa fa-arrow-down"></i> -$ 1,00</span></span>
+                            </td>
+                            <td class="colCompraVenta" data-order="$ 293,00">
+                                $ 293,00
+                                <span class="variacionCompraVenta"><span class="baja"><i class="fa fa-arrow-down"></i> -$ 1,00</span></span>
+                            </td>
+                            <td class="colVariacion">
+                                <span class="variacion"><span class="baja"><i class="fa fa-arrow-down"></i> -0,34 %</span></span>
+                            </td>
+                            <td class="colSpread">
+                                $ 6,00
+                            </td>
+                            <td class="colFecha">
+                                <abbr class="timeago date" title="2022-10-14T14:40:00">viernes, 14 de octubre de 2022 14:40</abbr>
+                            </td>
+                        </tr>
+            
+                        <tr>
+                            <td class="colNombre">
+                                <a href="/cotizacion-dolar-provincia-santiago-del-estero.aspx">Santiago del Estero</a>
+                            </td>
+                            <td class="colCompraVenta" data-order="$ 286,00">
+                                $ 286,00
+                                <span class="variacionCompraVenta"><span class="baja"><i class="fa fa-arrow-down"></i> -$ 1,00</span></span>
+                            </td>
+                            <td class="colCompraVenta" data-order="$ 290,00">
+                                $ 290,00
+                                <span class="variacionCompraVenta"><span class="baja"><i class="fa fa-arrow-down"></i> -$ 1,00</span></span>
+                            </td>
+                            <td class="colVariacion">
+                                <span class="variacion"><span class="baja"><i class="fa fa-arrow-down"></i> -0,34 %</span></span>
+                            </td>
+                            <td class="colSpread">
+                                $ 4,00
+                            </td>
+                            <td class="colFecha">
+                                <abbr class="timeago date" title="2022-10-14T14:40:00">viernes, 14 de octubre de 2022 14:40</abbr>
+                            </td>
+                        </tr>
+            
+                        <tr>
+                            <td class="colNombre">
+                                <a href="/cotizacion-dolar-provincia-tierra-del-fuego.aspx">Tierra del Fuego</a>
+                            </td>
+                            <td class="colCompraVenta" data-order="$ 286,00">
+                                $ 286,00
+                                <span class="variacionCompraVenta"><span class="baja"><i class="fa fa-arrow-down"></i> -$ 1,00</span></span>
+                            </td>
+                            <td class="colCompraVenta" data-order="$ 295,00">
+                                $ 295,00
+                                <span class="variacionCompraVenta"><span class="baja"><i class="fa fa-arrow-down"></i> -$ 1,00</span></span>
+                            </td>
+                            <td class="colVariacion">
+                                <span class="variacion"><span class="baja"><i class="fa fa-arrow-down"></i> -0,34 %</span></span>
+                            </td>
+                            <td class="colSpread">
+                                $ 9,00
+                            </td>
+                            <td class="colFecha">
+                                <abbr class="timeago date" title="2022-10-14T14:40:00">viernes, 14 de octubre de 2022 14:40</abbr>
+                            </td>
+                        </tr>
+            
+                        <tr>
+                            <td class="colNombre">
+                                <a href="/cotizacion-dolar-provincia-tucuman.aspx">Tucumán</a>
+                            </td>
+                            <td class="colCompraVenta" data-order="$ 286,00">
+                                $ 286,00
+                                <span class="variacionCompraVenta"><span class="baja"><i class="fa fa-arrow-down"></i> -$ 1,00</span></span>
+                            </td>
+                            <td class="colCompraVenta" data-order="$ 292,00">
+                                $ 292,00
+                                <span class="variacionCompraVenta"><span class="baja"><i class="fa fa-arrow-down"></i> -$ 1,00</span></span>
+                            </td>
+                            <td class="colVariacion">
+                                <span class="variacion"><span class="baja"><i class="fa fa-arrow-down"></i> -0,34 %</span></span>
+                            </td>
+                            <td class="colSpread">
+                                $ 6,00
+                            </td>
+                            <td class="colFecha">
+                                <abbr class="timeago date" title="2022-10-14T14:40:00">viernes, 14 de octubre de 2022 14:40</abbr>
+                            </td>
+                        </tr>
+            
+                </table>
+
+<div>
+<iframe width="460" height="215" src="https://www.youtube.com/embed/85RLy2Q8r_U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+ <footer>
+   <p class="copyright text-muted">Copyright &copy; 2021 · MP2021(Facultad de Ingeniería - UNJu) </p>
+ </footer>    
+</body>
+</html>

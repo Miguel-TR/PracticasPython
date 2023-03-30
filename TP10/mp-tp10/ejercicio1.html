@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="estilos/estilos.css">
+
+</head>
+<body>
+    <form action="/action_page.php">
+        <fieldset>
+          <legend>Formulario</legend>
+          <label for="fname">Nombre:</label><br>
+          <input type="text" id="fname" name="fname" value="" placeholder="Lucas" required><br>
+          <label for="lname">Domicilio:</label><br>
+          <input type="text" id="lname" name="lname" value="" placeholder="25 de Mayo" required><br><br>
+          <label for="lname">Ciudad:</label><br>
+          <input type="text" id="lname" name="lname" value="" placeholder="San Pedro" ><br><br>
+          <label for="cars">País:</label>
+        <select id="pais" name="pais">
+            <option value="Argentina">Argentina</option>
+            <option value="Brasil">Brasil</option>
+            <option value="Paraguay">Paraguay</option>
+            <option value="Bolivia"> Bolivia</option>
+        </select>
+        <br><br>
+        <label for="phone">Numero de Telefono:</label><br><br>
+        <input type="tel" id="phone" name="phone" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required><br><br>
+        <label for="email">Email:</label><br><br>
+        <input type="email" id="email" name="email" placeholder="alguien@example.com" required>
+        <br><br>
+        <label for="mensaje">Mensaje:</label><br><br>
+        <textarea name="message" style="width:100px; height:300px; color:red; border:2px solid DodgerBlue;">The cat was playing in the garden.</textarea>
+       
+        <br><br>
+          <input type="submit" value="Enviar">
+        </fieldset>
+      </form>
+
+
+</body>
+</html>
